@@ -3,7 +3,6 @@ import os
 from PIL import Image, ImageDraw, ImageFont # For drawing on image
 import numpy as np
 import uuid # For unique temp filenames
-import cv2 # For BGR to RGB conversion for PIL operations
 
 # Import your core ML logic (model_inference.py should be in the same directory)
 from model_inference import detect_and_predict_faces 
