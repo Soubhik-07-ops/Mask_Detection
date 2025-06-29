@@ -1,9 +1,7 @@
-Flask
 streamlit
-tensorflow-cpu==2.12.1
-opencv-python-headless==4.11.0.86
+tensorflow-cpu==2.12.1 # Or the exact version that works locally for you
+opencv-python==4.11.0.86
 Pillow==11.2.1
-numpy==1.24.3 # Change this line!
+numpy==1.24.3
 pandas==2.3.0
 scikit-learn==1.7.0
-gunicorn
